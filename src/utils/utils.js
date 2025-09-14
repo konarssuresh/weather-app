@@ -38,5 +38,5 @@ export const kmhToMph = (kmh) => {
 };
 
 export const mmToInch = (mm) => {
-  return Math.round(mm * 0.0393701 * 100) / 100;
+  return Math.round(mm * 0.0393701 * 1000) / 1000;
 };
